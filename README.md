@@ -105,12 +105,12 @@ Most systems only store data but do not provide **intelligence**.
 
 ## 🔄 Process Flow
 <div align="center">
-<img src="flowchart.png" width="700"/>
+<img src="flowchart.png" width="200"/>
 </div>
 
 ## 📊 Insights Visualization
 <div align="center">
-<img src="structure.png" width="600"/>
+<img src="chart.png" width="600"/>
 </div>
 
 ## 🛡️ Technology Stack
