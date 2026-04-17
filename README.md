@@ -100,17 +100,17 @@ Most systems only store data but do not provide **intelligence**.
 ## 🏗️ System Architecture
 
 <div align="center">
-<img src="assets/architecture.png" width="700"/>
+<img src="architecture.png" width="700"/>
 </div>
 
 ## 🔄 Process Flow
 <div align="center">
-<img src="assets/flowchart.png" width="700"/>
+<img src="flowchart.png" width="700"/>
 </div>
 
 ## 📊 Insights Visualization
 <div align="center">
-<img src="assets/structure.png" width="600"/>
+<img src="structure.png" width="600"/>
 </div>
 
 ## 🛡️ Technology Stack
@@ -132,7 +132,7 @@ Most systems only store data but do not provide **intelligence**.
 ## 📁 Project Structure
 
 <div align="center">
-<img src="assets/structure.png" width="600"/>
+<img src="structure.png" width="600"/>
 </div>
 
 ## ⚡ Quick Start
