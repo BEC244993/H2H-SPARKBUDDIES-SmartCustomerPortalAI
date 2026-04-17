@@ -134,6 +134,27 @@ Most systems only store data but do not provide **intelligence**.
 <div align="center">
 <img src="structure.png" width="600"/>
 </div>
+## 👥 Team Members
+
+<table>
+<tr>
+
+<td>
+<img src="https://github.com/BEC244993.png" width="100"><br>
+<b>Priya Darshini</b><br>
+🚀 Backend & AI Developer<br>
+<a href="https://github.com/BEC244993">GitHub</a>
+</td>
+
+<td>
+<img src="https://github.com/USERNAME2.png" width="100"><br>
+<b>NEIJYA NOUSHAD</b><br>
+💻 Frontend Developer<br>
+<a href="https://github.com/BEC244993">GitHub</a>
+</td>
+
+</tr>
+</table>
 
 ## ⚡ Quick Start
 
