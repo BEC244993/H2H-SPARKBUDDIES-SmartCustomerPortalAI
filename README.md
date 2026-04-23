@@ -9,11 +9,8 @@
 <br>
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
-[![Flask](https://img.shields.io/badge/Flask-Web_App-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![AI](https://img.shields.io/badge/AI-Churn_Prediction-FF6F61?style=for-the-badge)]
-[![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge)]
-[![Scikit-Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn)]
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]
+
+
 
 ---
 
