@@ -164,13 +164,13 @@ python app.py
 </tr>
 
 <tr>
-<td><b>Your Name</b></td>
+<td><b>Priyadarshini</b></td>
 <td>Frontend & Backend</td>
 <td><a href="https://github.com/your-username">your-username</a></td>
 </tr>
 
 <tr>
-<td><b>Teammate Name</b></td>
+<td><b>Nejiya Noushad</b></td>
 <td>Backend & Logic</td>
 <td><a href="https://github.com/teammate-username">teammate-username</a></td>
 </tr>
