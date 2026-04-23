@@ -1,172 +1,184 @@
-<div align="center">
+<h1 align="center">🚀 Smart Customer Management Portal</h1>
+<h3 align="center">💡 Intelligent Customer Insights using Rule-Based Logic</h3>
 
-<br>
+<p align="center">
+<b>📊 Analyze • ⚠️ Detect • 💡 Improve Customer Retention</b>
+</p>
 
-# 📊 Smart Customer Management Portal — AI-Driven Insights System
+<hr>
 
-### _Predict. Understand. Retain Customers Intelligently._
+<h2>📖 Overview</h2>
+<p>
+Smart Customer Management Portal is a web-based application designed to manage customer data and identify customers who may require attention.
+It uses a <b>rule-based (Constraint Satisfaction) approach</b> to analyze customer data and generate insights.
+</p>
 
-<br>
+<h2>🎯 Problem Statement</h2>
+<ul>
+<li>Difficulty in tracking customer data</li>
+<li>Identifying at-risk customers</li>
+<li>Taking timely actions</li>
+</ul>
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+<h2>❓ Why This Platform</h2>
+<ul>
+<li>⚡ Lightweight and simple</li>
+<li>🔍 Transparent logic</li>
+<li>🧠 No complex ML required</li>
+<li>🚀 Easy to use</li>
+</ul>
 
+<h2>✅ Solution</h2>
+<p>
+The system stores customer data, applies logical rules, identifies risk levels,
+and provides reasons and suggestions.
+</p>
 
+<h2>🧠 Methodology</h2>
+<p>
+This project uses a <b>rule-based decision system (CSP)</b> where predefined conditions are applied to evaluate customer data.
+</p>
 
----
-
-<h3>🏆 An AI-powered system that <b>analyzes</b>, <b>predicts</b>, <b>explains</b>, and <b>recommends</b><br>to reduce customer churn in SaaS platforms.</h3>
-
-<br>
-
-| 📊 Manage Customers | 🤖 AI Prediction | 💡 Smart Recommendations |
-|:---:|:---:|:---:|
-| Add & track users | Detect churn risk | Get retention strategies |
-
-</div>
-
-<br>
-
----
-
-## 📖 Table of Contents
-
-- [Why This Platform?](#-why-this-platform)
-- [Key Capabilities](#-key-capabilities)
-- [System Architecture](#-system-architecture)
-- [Process Flow](#-process-flow)
-- [Insights Visualization](#-insights-visualization)
-- [Technology Stack](#-technology-stack)
-- [Project Structure](#-project-structure)
-- [Quick Start](#-quick-start)
-- [Deployment](#-deployment)
-- [Team Members](#-team-members)
-- [License](#-license)
-
----
-
-## 🚀 Why This Platform?
-
-Customer churn is one of the biggest challenges faced by SaaS companies. Businesses lose customers due to:
-
-- Lack of early churn detection  
-- Poor understanding of customer behavior  
-- No actionable insights  
-
-Most systems only store data but do not provide **intelligence**.
-
-**This project solves that gap using AI-powered analytics.**
-
-
-> **Result:** Businesses can reduce churn and increase customer retention using data-driven decisions.
-
----
-
-## 🏆 Key Capabilities
-
-<table>
+<h2>✨ Key Capabilities</h2>
+<table border="1" cellpadding="8">
 <tr>
-<td width="33%">
-
-### 🤖 Intelligent Insights
-- AI-based churn prediction  
-- Customer health scoring  
-- Behavior analysis  
-
-</td>
-<td width="33%">
-
-### ⚡ Business Value
-- Reduce customer loss  
-- Improve retention strategies  
-- Identify high-value customers  
-
-</td>
-<td width="33%">
-
-### 🎨 User Experience
-- Simple dashboard  
-- Visual insights  
-- Easy data management  
-
-</td>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>📥 Data Entry</td>
+<td>Input customer details</td>
+</tr>
+<tr>
+<td>📊 Storage</td>
+<td>CSV-based storage</td>
+</tr>
+<tr>
+<td>🧠 Analysis</td>
+<td>Rule-based evaluation</td>
+</tr>
+<tr>
+<td>⚠️ Detection</td>
+<td>Identify risky customers</td>
+</tr>
+<tr>
+<td>💡 Suggestions</td>
+<td>Provide actions</td>
+</tr>
+<tr>
+<td>🖥️ Dashboard</td>
+<td>Display results</td>
 </tr>
 </table>
 
----
+<h2>🏗️ System Architecture</h2>
+<pre>
+User Interface (HTML)
+        ↓
+Backend Processing (Python - Flask)
+        ↓
+Data Storage (CSV)
+        ↓
+Rule-Based Logic (CSP)
+        ↓
+Output (Results + Suggestions)
+</pre>
 
-## 🏗️ System Architecture
+<h2>🔄 Process Flow</h2>
+<pre>
+Enter Data → Store in CSV → Apply Rules → Analyze → 
+Detect Risk → Generate Reasons → Suggest Actions → Display Results
+</pre>
 
-<div align="center">
-<img src="architecture.png" width="700"/>
-</div>
-
-## 🔄 Process Flow
-<div align="center">
-<img src="flowchart.png" width="200"/>
-</div>
-
-## 📊 Insights Visualization
-<div align="center">
-<img src="chart.png" width="600"/>
-</div>
-
-## 🛡️ Technology Stack
-
-<div align="center">
-
-| Layer | Technology | Purpose |
-|:---|:---|:---|
-| Backend | Python (Flask) | Application logic |
-| Machine Learning | Scikit-learn | Churn prediction |
-| Database | SQLite | Data storage |
-| Frontend | HTML, CSS | User interface |
-| Tools | Git & GitHub | Version control |
-
-</div>
-
----
-
-## 📁 Project Structure
-
-<div align="center">
-<img src="structure.png" width="600"/>
-</div>
-## 👥 Team Members
-
-<table>
+<h2>⚙️ Tech Stack</h2>
+<table border="1" cellpadding="8">
 <tr>
-
-<td>
-<img src="https://github.com/BEC244993.png" width="100"><br>
-<b>Priya Darshini</b><br>
-🚀 Backend & AI Developer<br>
-<a href="https://github.com/BEC244993">GitHub</a>
-</td>
-
-<td>
-<img src="https://github.com/USERNAME2.png" width="100"><br>
-<b>NEIJYA NOUSHAD</b><br>
-💻 Frontend Developer<br>
-<a href="https://github.com/BEC244993">GitHub</a>
-</td>
-
+<th>Layer</th>
+<th>Technology</th>
+</tr>
+<tr>
+<td>Frontend</td>
+<td>HTML, CSS</td>
+</tr>
+<tr>
+<td>Backend</td>
+<td>Python (Flask)</td>
+</tr>
+<tr>
+<td>Database</td>
+<td>CSV</td>
+</tr>
+<tr>
+<td>Logic</td>
+<td>Rule-Based (CSP)</td>
 </tr>
 </table>
 
-## ⚡ Quick Start
+<h2>📁 Project Structure</h2>
+<pre>
+Smart-Customer-Portal/
+│
+├── app.py
+├── requirements.txt
+├── templates/
+│     └── index.html
+├── static/
+│     ├── css/
+│     └── js/
+├── data/
+│     └── customers.csv
+├── screenshots/
+└── README.md
+</pre>
 
-```bash
-# Clone the repository
-git clone https://github.com/BEC244993/H2H-PriyaDarshini-SmartCustomerPortalAI
-
-# Navigate to project
-cd H2H-PriyaDarshini-SmartCustomerPortalAI
-
-# Install dependencies
+<h2>🛠️ Installation & Setup</h2>
+<pre>
+git clone &lt;your-repo-link&gt;
+cd Smart-Customer-Portal
 pip install -r requirements.txt
-
-# Run application
 python app.py
+</pre>
 
+<p><b>Open in browser:</b> http://127.0.0.1:5000/</p>
 
+<h2>📸 Screenshots</h2>
+<p>Add your screenshots here</p>
 
+<h2>🎥 Demo Video</h2>
+<p>Add your Google Drive / YouTube link here</p>
+
+<h2>🔮 Future Scope</h2>
+<ul>
+<li>Machine Learning integration</li>
+<li>Cloud deployment</li>
+<li>Advanced analytics dashboard</li>
+</ul>
+
+<h2>👥 Team Members</h2>
+
+<table border="1" cellpadding="10">
+<tr>
+<th>Name</th>
+<th>Role</th>
+<th>GitHub</th>
+</tr>
+
+<tr>
+<td><b>Your Name</b></td>
+<td>Frontend & Backend</td>
+<td><a href="https://github.com/your-username">your-username</a></td>
+</tr>
+
+<tr>
+<td><b>Teammate Name</b></td>
+<td>Backend & Logic</td>
+<td><a href="https://github.com/teammate-username">teammate-username</a></td>
+</tr>
+
+</table>
+
+<h2>📢 Final Note</h2>
+<p>
+This project shows how a <b>rule-based system</b> can effectively analyze customer data
+and support decision-making in a simple and practical way.
+</p>
