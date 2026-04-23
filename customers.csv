@@ -1,0 +1,12 @@
+Name,Days,Amount,Insight,Sentiment,Membership,Action,Priority
+rahul,2,3000,🟢 Active,😊 Positive,Regular,Send thank you message,2900
+afrren,3,400,🟢 Active,😡 Negative,Regular,Call customer / fix issue,250
+afrren,3,400,🟢 Active,😡 Negative,Regular,Call customer / fix issue,250
+afrren,70,400,⚠️ At Risk,😡 Negative,None,Call customer / fix issue,0
+afrren,70,400,⚠️ At Risk,😡 Negative,None,Call customer / fix issue,0
+nithya,30,4000,💰 High Value,😊 Positive,🌟 VIP Member,Send thank you message,2500
+neha,50,600,⚠️ At Risk,😐 Neutral,None,Monitor feedback,0
+neha,50,600,⚠️ At Risk,😐 Neutral,None,Monitor feedback,0
+afrren,70,600,⚠️ At Risk,😊 Positive,None,Send thank you message,0
+priya,30,4000,💰 High Value,😊 Positive,🌟 VIP Member,Send thank you message,2500
+riya,3,200,🟢 Active,😐 Neutral,Regular,Monitor feedback,50

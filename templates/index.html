@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Portal</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        form {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+
+        table {
+            margin-top: 20px;
+            width: 95%;
+            background: white;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background: green;
+            color: white;
+        }
+
+        .stats {
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        #search {
+            width: 300px;
+            padding: 8px;
+            margin-top: 15px;
+        }
+
+        .delete-btn {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Smart Customer Management</h2>
+
+<!-- 📊 Stats -->
+<div class="stats">
+    Total Customers: {{ total }} |
+    At Risk: {{ at_risk }} |
+    High Value: {{ high_value }}
+</div>
+{% if at_risk > 0 %}
+<p style="color:red; font-weight:bold;">
+⚠️ Warning: You have {{ at_risk }} at-risk customers! Take action now.
+</p>
+{% endif %}
+
+<!-- 🧾 Form -->
+<h2>Add Customer</h2>
+
+<form method="POST" action="/add">
+    <input type="text" name="name" placeholder="Enter Name" required>
+    <input type="number" name="days" placeholder="Days since last purchase" required>
+    <input type="number" name="amount" placeholder="Amount spent" required>
+    <input type="text" name="review" placeholder="Customer review" required>
+    <button type="submit">Add Customer</button>
+</form>
+
+<!-- 🔍 Search -->
+<input type="text" id="search" placeholder="Search by name" onkeyup="searchCustomer()">
+
+<!-- 📋 Table -->
+<h2>Customer List</h2>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Days</th>
+    <th>Amount</th>
+    <th>Insight</th>
+    <th>Sentiment</th>
+    <th>Suggestion</th>
+    <th>Membership</th>
+    <th>Action</th>
+    <th>Priority</th>
+    <th>Delete</th>
+</tr>
+
+{% for c in customers %}
+<tr>
+    <td>{{ c.name }}</td>
+    <td>{{ c.days }}</td>
+    <td>{{ c.amount }}</td>
+
+
+    <!-- 🎨 Color Indicator -->
+    <td style="
+    color:
+    {% if 'At Risk' in c.insight %} red
+    {% elif 'High Value' in c.insight %} green
+    {% elif 'Active' in c.insight %} blue
+    {% else %} orange
+    {% endif %}
+    ">
+        {{ c.insight }}
+    </td>
+
+    <td>{{ c.sentiment }}</td>
+    <td>{{ c.suggestion }}</td>
+    <td>{{ c.membership }}</td>
+    <td>{{ c.action }}</td>
+    <td>{{ c.priority}}</td>
+
+    <!-- 🗑 Delete -->
+    <td>
+        <a href="/delete/{{ loop.index0 }}" class="delete-btn">Delete</a>
+    </td>
+</tr>
+{% endfor %}
+
+</table>
+
+<!-- 🔍 Search Script -->
+<script>
+function searchCustomer() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let rows = document.querySelectorAll("table tr");
+
+    for (let i = 1; i < rows.length; i++) {
+        let name = rows[i].cells[0].innerText.toLowerCase();
+        rows[i].style.display = name.includes(input) ? "" : "none";
+    }
+}
+</script>
+
+</body>
+</html>
