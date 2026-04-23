@@ -166,7 +166,7 @@ python app.py
 <tr>
 <td><b>Priyadarshini</b></td>
 <td>Frontend & Backend</td>
-<td><a href="https://github.com/BEC244968">BEC244993</a></td>
+<td><a href="https://github.com/priya">priya</a></td>
 </tr>
 
 <tr>
